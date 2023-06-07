@@ -1,0 +1,20 @@
+{
+  "name": "newsletter-signup-bradt",
+  "version": "1.0.0",
+  "description": "A simple NewsLetter Signup Paeg",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node app",
+    "dev" : "nodemon app"
+  },
+  "author": "kiranmajji",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
